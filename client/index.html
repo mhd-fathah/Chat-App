@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socket.IO Chat</title>
+</head>
+<body>
+    <h1>Simple chat</h1>
+
+    <input type="text" name="msgInput" id="msgInput" placeholder="Type a message...">
+    <button onclick="sendMessages()">Send</button>
+    <ul id="messages"></ul>
+
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
